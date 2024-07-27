@@ -1,0 +1,88 @@
+/* Container for the product cards */
+.products-container {
+	margin: 0 150px;
+}
+
+.products-container h2 {
+	text-align: center;
+	padding: 40px 0;
+}
+
+/* Item Container using CSS Grid */
+.item-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	gap: 20px;
+	padding: 20px;
+}
+
+/* Product Card Container */
+.product-card {
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	overflow: hidden;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	background-color: #fff;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Image */
+.product-card img {
+	width: 100%;
+	height: 400px;
+	object-fit: fill;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+/* Product Info Container */
+.product-info {
+	padding: 15px;
+	text-align: center;
+}
+
+/* Product Title */
+.product-info h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 10px 0;
+	color: #333;
+}
+
+/* Product Category */
+.product-info h4 {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 5px 0;
+	color: #777;
+}
+
+/* Product Price */
+.product-info h4:last-child {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 10px 0;
+	color: #f44336;
+}
+
+/* More Info Link */
+.more-info {
+	display: inline-block;
+	margin-top: 15px;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #007bff;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.more-info:hover {
+	background-color: #0056b3;
+}

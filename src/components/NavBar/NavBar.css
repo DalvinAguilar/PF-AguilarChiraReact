@@ -1,0 +1,40 @@
+.nav-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: whitesmoke;
+	height: 100px;
+}
+
+.nav-logo a {
+	color: black;
+	font-size: 1.6rem;
+	text-decoration: none;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 2rem;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 2rem;
+	list-style: none;
+}
+
+.nav-menu-link a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5rem;
+	font-weight: 600;
+	transition: ease-in-out 0.33s;
+}
+
+.nav-menu-link a:hover {
+	border-bottom: 5px solid #000000;
+}
