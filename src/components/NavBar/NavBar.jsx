@@ -28,7 +28,9 @@ function NavBar() {
 					<Link to='/category/jewelry'>Jewelry</Link>
 				</li>
 			</ul>
-			<CartWidget />
+			<Link to='/checkout'>
+				<CartWidget />
+			</Link>
 		</nav>
 	);
 }
